@@ -1,7 +1,7 @@
 package com.example.first.service;
 
-import com.example.first.FileRepository;
-import com.example.first.FileStorage;
+import com.example.first.repository.FileRepository;
+import com.example.first.model.entity.FileStorage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
